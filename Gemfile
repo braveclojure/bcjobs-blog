@@ -5,6 +5,7 @@ gem 'middleman', '~> 4.2'
 gem 'middleman-blog'
 gem 'middleman-autoprefixer', '~> 2.7'
 gem 'middleman-livereload'
+gem 'execjs', '2.7.0'
 
 gem 'redcarpet', '~> 3.3', '>= 3.3.3'
 
