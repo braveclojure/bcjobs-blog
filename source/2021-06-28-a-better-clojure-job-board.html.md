@@ -3,7 +3,6 @@ title: A Better Clojure Job Board
 date: 2021-06-28
 ---
 
-
 I've rebuilt Brave Clojure Jobs to make it nearly effortless for companies that
 use Clojure to let developers know they're hiring. If you're hiring, I want you
 to be able to get a job listing in front of interested devs in less time than it
