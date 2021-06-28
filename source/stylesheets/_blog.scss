@@ -1,0 +1,10 @@
+.article-summary {
+  background: white;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  .date {
+    font-family: $serif-family;
+    font-style: italic;
+  }
+}
