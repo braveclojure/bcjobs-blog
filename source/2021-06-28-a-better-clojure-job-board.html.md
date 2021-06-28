@@ -1,7 +1,6 @@
 ---
 title: A Better Clojure Job Board
 date: 2021-06-28
-summary: "hi"
 ---
 
 
