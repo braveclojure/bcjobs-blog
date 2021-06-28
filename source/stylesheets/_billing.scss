@@ -1,0 +1,77 @@
+.subscription-plans-wrapper {
+  position: relative;
+}
+
+.subscription-plans {
+  background: $green;
+  border-radius: .25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  transition: opacity .15s;
+
+  h4 {
+    text-align: center;
+  }
+
+  &.syncing {
+    opacity: .5;
+  }
+}
+
+.pick-plan {
+  background: white;
+  padding: 1.5rem;
+
+  p {
+    margin-top: 0;
+  }
+}
+
+.subscription-plan {
+  background: white;
+  border: 3px solid $green-l1;
+  border-radius: .5rem;
+  box-shadow: 0 .25rem 1px 0 rgba(0, 0, 0, .1);
+  cursor: pointer;
+  margin: 1rem 0 1rem 1rem;
+  padding: 1rem 0;
+  text-align: center;
+  transition: transform .15s;
+
+  &:last-child {
+    margin-right: 1rem;
+  }
+
+  &:hover {
+    box-shadow: 0 .3rem 3px 0 rgba(0, 0, 0, .1);
+    transform: scale(1.05);
+
+    button {
+      background: $green-l2;
+    }
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+
+  .price {
+    font-size: $ms-up1;
+    font-weight: bold;
+    margin-bottom: .5rem;
+  }
+
+  .description {
+    margin-bottom: 1rem;
+  }
+
+  button {
+    background: $green;
+    // color: white;
+    // font-variant: small-caps;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+  }
+}

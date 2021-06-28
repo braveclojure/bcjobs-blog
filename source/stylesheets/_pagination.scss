@@ -1,0 +1,40 @@
+.pager {
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+
+.item-list .container {
+  .page-num {
+    background: white;
+    border-bottom: 2px solid $dark-lowlight;
+    border-radius: .25rem;
+    color: $faint;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 .25em .25em 0;
+    padding: .5em 1em;
+    transition: all 0.1s;
+
+    &:visited {
+      color: $faint;
+    }
+
+    &.active, &.active:visited, &:hover {
+      background: $primary;
+      color: $white;
+    }
+  }
+
+  .page-space {
+    display: inline-block;
+    margin: 0 .25em .25em 0;
+    padding: 0 .75em;
+  }
+}
+
+@media (min-width: $layout-w1) {
+  .item-list .container .page-num {
+    padding: 0 .5em;
+  }
+}

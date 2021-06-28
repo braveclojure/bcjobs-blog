@@ -1,0 +1,43 @@
+.editor-toolbar {
+  background: white;
+  // opacity: 1;
+
+  &::before, &::after {
+    display: none;
+  }
+
+  button {
+    margin: 0;
+    background: white;
+    box-shadow: none;
+    top: 0;
+    line-height: 0;
+    font-size: 1rem;
+    padding: .75rem;
+    border-radius: 0;
+    &:hover {
+      background: white;
+    }
+  }
+}
+
+
+
+.CodeMirror {
+  height: 4rem;
+}
+.CodeMirror-scroll {
+  min-height: 4rem !important;
+  overflow-x: auto;
+}
+
+/*
+@include breakpoint($col1) {
+  .reply {
+    .CodeMirror, .CodeMirror-scroll {
+      min-height: 6rem;
+      height: 6rem;
+    }
+  }
+}
+*/

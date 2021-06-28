@@ -1,0 +1,24 @@
+.show {
+  .elevator-pitch {
+    background: $faint-lowlight;
+    font-family: $serif-family;
+    font-size: $ms-up1;
+    font-style: italic;
+    line-height: 1.6;
+    padding: 1.25rem 1.5rem;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .heading {
+    border-bottom: 3px solid $on-background;
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+  }
+
+  &.company .heading {
+    margin-bottom: 1rem;
+  }
+}

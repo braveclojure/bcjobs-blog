@@ -1,0 +1,81 @@
+$base-font-size: 16px;
+$mobile-base-font-size: 17px;
+$lhx: 1.5;
+
+$base-line-height: $lhx * $base-font-size;
+
+$lhx1: 1.5rem;
+$lhx2: 1.75 * $base-line-height;
+$lhx3: 2.5 * $base-line-height;
+$lhx4: 3 * $base-line-height;
+
+
+$ms-scale: 1.2;
+$ms-up1: $base-font-size * $ms-scale;
+$ms-up2: $ms-up1 * $ms-scale;
+$ms-up3: $ms-up2 * $ms-scale;
+$ms-up4: 32px;
+$ms-up5: $ms-up4 * $ms-scale;
+$ms-up6: $ms-up5 * $ms-scale;
+$ms-up7: $ms-up6 * $ms-scale;
+
+$ms-up1: 1.2rem;
+$ms-up2: 1.45rem;
+$ms-up3: 1.7rem;
+$ms-up4: 2rem;
+
+$ms-down1: .83rem;
+$ms-down2: .7rem;
+
+
+$sans-family: Source Sans Pro, PT sans, Calibri, Georgia;
+// $serif-family: 'Noto Serif';
+// $serif-family: 'Merriweather';
+$serif-family: Source Serif Pro, Georgia;
+$display-family: Bebas Neue, Source Sans Pro, PT sans, Calibri, Georgia;
+
+html {
+  font-size: $mobile-base-font-size;
+  line-height: $lhx1;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 2.125rem;
+  margin-bottom: .5rem;
+}
+
+@media (min-width: $layout-w1) {
+  html {
+    font-size: $base-font-size;
+  }
+
+  h1 {
+    font-size: $ms-up4;
+    line-height: $lhx2;
+  }
+}
+
+h2 {
+  font-size: $ms-up3;
+  line-height: $lhx2;
+}
+
+h3 {
+  font-size: $ms-up2;
+  margin-bottom: .5rem;
+}
+
+h4 {
+  font-size: $ms-up1;
+}
+
+h5 {
+  font-size: $base-font-size;
+}
+
+.fa-external-link-alt {
+  display: inline-block;
+  font-size: 85%;
+  margin-left: .25rem;
+}

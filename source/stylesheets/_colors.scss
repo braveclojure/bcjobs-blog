@@ -1,0 +1,109 @@
+/*
+primary
+primary variant
+secondary
+secondary variant
+background
+surface
+error
+
+on primary
+on secondary
+on background
+on surface
+on error
+
+disabled
+
+states: hover, selected, etc
+*/
+
+
+//---
+// pure colors
+//---
+
+$teal: 6ec0e6;
+
+$davinci-orange: #f47e61;
+$orange: #ff7161;
+$orange-2: #f04431;
+$error-red: #ff476e;
+$teal: #77c4d3;
+$green: #23d9b7;
+$green-l1: #26eac5;
+// $green-l2: #1ff0c9;
+$green-l2: #17f5cb;
+$green-lx: #9fedde;
+$green-d1: #1eb89b;
+$green-l5: #e1f7f3;
+
+$purple: #5f2756;
+$purple-light: #ab74a2;
+
+$friendly-blue: #509cff;
+$friendly-blue-light: #82b8ff;
+$calm-light-blue: #f0f3f8;
+// $calm-light-blue: rgb(240, 243, 248);
+
+
+$charcoal: #3f464c;
+$faint: #999;
+
+
+//---
+// alphas
+//---
+
+$faint-lowlight: rgba(0, 0, 0, .03);
+$med-lowlight: rgba(0, 0, 0, .05);
+$dark-lowlight: rgba(0, 0, 0, .09);
+$subtle: rgba(0, 0, 0, .2);
+
+$faint-highlight: rgba(255, 255, 255, .4);
+$med-highlight: rgba(255, 255, 255, .8);
+$white: #fff;
+
+
+$background-color: #fcfbf7;
+$background-color: #faf9f5;
+// $background-color: #f8f6ee;
+// $background-color: #faf8f3;
+// $background-color: $calm-light-blue;
+// $background-color: #fffefa;
+$off-background: #f6f6ef;
+$off-background: #f6f5f1;
+$off-background: #faf9f5;
+
+//---
+// material
+//---
+
+$on-background: $charcoal;
+$on-dark: white;
+$primary: $friendly-blue;
+$primary-l1: $friendly-blue-light;
+$secondary: $orange;
+
+$bg1: $background-color;
+// $bg2: $off-background;
+// $bg2: $charcoal;
+$bg2: $faint-lowlight;
+$bg3: #fff;
+
+//---
+// role
+//---
+
+$action: $green-l1;
+$action-hover: $green;
+
+$v-separator-color: #eee;
+
+$selected: $secondary;
+$hovered: $secondary;
+
+$pane-border-color: $med-lowlight;
+
+$button: #f0f0f0;
+$button-hover: #e6e6e6;

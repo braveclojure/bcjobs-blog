@@ -1,0 +1,446 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: $bg1;
+  box-sizing: border-box;
+  color: $on-background;
+  font-family: $sans-family;
+  margin: 0;
+  padding-top: .1px;
+  position: relative;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 1.5rem;
+}
+
+.app.col2 {
+  height: 100vh;
+  margin: 0 auto;
+
+  > .container {
+    height: 100vh;
+  }
+}
+
+.col2 .container {
+  display: grid;
+  grid-template-columns: 18rem 1fr;
+}
+
+.section {
+  margin-bottom: 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// headers
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+a,
+.link {
+  color: $primary;
+  text-decoration: none;
+
+  &:hover {
+    color: $secondary;
+  }
+}
+
+.separator {
+  color: $subtle;
+  display: inline-block;
+  margin: 0 .5rem;
+}
+
+// buttons, forms
+
+[type=email],
+[type=number],
+[type=password],
+[type=search],
+[type=text],
+select,
+textarea {
+  border: 1px solid rgba(0, 0, 0, .05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+  font-family: $sans-family;
+  font-size: 100%;
+  padding: .4em;
+  width: 100%;
+}
+
+button {
+  font-family: $sans-family;
+}
+
+select {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+}
+
+[type=submit],
+a.submit,
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: $button;
+  border: 0;
+  border-radius: .25rem;
+  cursor: pointer;
+  line-height: 2;
+  padding: .0625rem .5rem;
+  position: relative;
+  transition: background .15s;
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+
+  // box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.4);
+  //color: white;
+  &:focus {
+    box-shadow: 0 0px 3px rgba(0, 0, 0, .3);
+  }
+
+  &:hover {
+    background: $button-hover;
+  }
+}
+
+[type=submit] + .activity-indicator {
+  margin-left: .5rem;
+}
+
+.primary.ready {
+  background: $action;
+
+  &:hover {
+    background: $action-hover;
+  }
+}
+
+.not-ready {
+  color: rgba(0, 0, 0, .55);
+  cursor: default;
+
+  &:hover {
+    background: $button;
+  }
+}
+
+// form state feedback
+button .activity-indicator {
+  margin-left: .25rem;
+
+  .success-message {
+    display: none;
+  }
+}
+
+//---
+// tag type things
+//---
+.tag {
+  color: $faint;
+  display: inline-block;
+  font-size: $ms-down2;
+  letter-spacing: 1px;
+  margin-right: .5rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.skill {
+    background: $med-lowlight;
+    border: $dark-lowlight;
+    color: $charcoal;
+    padding: 0 .5rem;
+  }
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    a {
+      display: block;
+      padding: .125em 1em .25em;
+
+      &:hover,
+      &.active {
+        background: white;
+        color: $selected;
+      }
+    }
+  }
+
+  .fa,
+  .fa-rocket {
+    display: inline-block;
+    font-size: $ms-down1;
+    left: 1rem;
+    position: absolute;
+    top: .55rem;
+  }
+
+  .fa.fa-stars {
+    top: .5rem;
+  }
+
+  a > span {
+    padding-left: 1.25rem;
+  }
+
+  .fa-circle,
+  .fa-square {
+    font-size: $base-font-size;
+    left: -.2rem;
+    opacity: .6;
+    position: absolute;
+    top: .8rem;
+  }
+}
+
+
+// error messages
+.errors {
+  input,
+  textarea {
+    border: 5px solid $error-red;
+  }
+}
+
+.error-messages {
+  color: $error-red;
+  font-weight: bold;
+  list-style: none;
+  margin: 0 0 1rem;
+  padding-left: 0;
+}
+
+.error-message {
+  color: $error-red;
+}
+
+.main {
+  .error input {
+    border-color: $error-red;
+  }
+
+  .error-messages {
+    color: $error-red;
+  }
+}
+
+.required {
+  color: $orange;
+  display: inline-block;
+  margin-left: .125rem;
+}
+
+//
+
+.field-label {
+  display: block;
+  margin-bottom: .25rem;
+}
+
+.tip {
+  color: #999;
+  display: inline-block;
+  font-size: $ms-down1;
+  margin-left: .5rem;
+}
+
+.sub-input-block {
+  margin-top: -.5rem;
+}
+
+//
+
+.loading-msg {
+  padding: 1rem;
+}
+
+// modal
+
+.modal-overlay {
+  background: rgba(0, 0, 0, .2);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.modal {
+  background: white;
+  height: 400px;
+  left: 50%;
+  max-height: 100%;
+  max-width: 100%;
+  position: fixed;
+  top: 25%;
+  transform: translate(-50%, -25%);
+  width: 30rem;
+
+  &.confirm-listing-delete {
+    height: 100px;
+  }
+}
+
+.modal-content {
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  [type=text] {
+    width: calc(100% - 2rem);
+  }
+}
+
+
+.fancy-or {
+  border-bottom: 3px solid $secondary;
+  margin: 3rem 0;
+  position: relative;
+
+  .circle {
+    background: $secondary;
+    border-radius: 3rem;
+    color: white;
+    font-family: $serif-family;
+    // font-size: $ms-up1;
+    font-style: italic;
+    // font-variant: small-caps;
+    font-weight: bold;
+    height: 3rem;
+    left: 50%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    // text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    width: 3rem;
+  }
+
+  .text {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.caption {
+  font-style: italic;
+}
+
+.sync-active {
+  .activity-indicator {
+    color: $primary;
+    display: block;
+    font-size: $ms-up2;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -30%);
+  }
+
+  button,
+  input {
+    opacity: .2;
+  }
+}
+
+.optional {
+  color: #999;
+  display: inline-block;
+  font-variant: small-caps;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-left: .5rem;
+}
+
+h1 .optional {
+  font-size: $ms-up1;
+}
+
+.only-login {
+  margin: 3rem auto;
+  width: 24rem;
+
+  .login {
+    background: white;
+    border: 3px solid $dark-lowlight;
+    padding: 2rem;
+  }
+}
+
+.new-user-form {
+  margin-bottom: 2rem;
+}
+
+
+.confirm-signout {
+  background: $dark-lowlight;
+  padding: 1rem;
+
+  .spacer {
+    background: white;
+    border-radius: .25rem;
+    font-weight: bold;
+    padding: .75rem 1rem 1rem;
+  }
+
+  div {
+    margin-bottom: .5rem;
+  }
+
+  button {
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.back.site-id {
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.subsection {
+  margin-bottom: .5rem;
+}
+
+.spacer {
+  margin: 0 .5rem;
+}

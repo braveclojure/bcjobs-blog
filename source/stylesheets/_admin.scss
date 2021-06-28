@@ -1,0 +1,500 @@
+.admin-main {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+
+.sections {
+  display: grid;
+  grid-template-rows: auto auto auto auto 1fr;
+  height: 100vh;
+}
+
+.section:first-child {
+  margin-top: 1rem;
+}
+
+.overview {
+  background: $bg2;
+
+  .loading-msg {
+    padding: 1rem;
+  }
+
+  .listings-list {
+    -ms-overflow-style: none;
+    overflow-y: auto;
+    padding-bottom: 2rem;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  a {
+    padding: 0 1rem;
+  }
+
+  h3 {
+    margin-bottom: .5rem;
+    padding: 0 1rem;
+  }
+
+  .job-title {
+    line-height: 1.25;
+    margin-bottom: .25rem;
+  }
+
+  .listings-overview {
+    margin-bottom: 0;
+  }
+
+  .listing {
+    background: rgba(255, 255, 255, .7);
+    border-radius: .25rem;
+    box-shadow: 0 .2rem 0 0 rgba(0, 0, 0, .05);
+    display: block;
+    margin: 1rem;
+    padding: .5em .75rem .75em;
+    position: relative;
+    transition: transform .2s, color .2s;
+
+    &:hover {
+      transform: scale(1.015);
+    }
+
+    &:active,
+    &.active,
+    &:hover {
+      background: $white;
+      box-shadow: 0 .2rem 0 0 rgba(0, 0, 0, .25);
+      color: $selected;
+
+      .edit {
+        color: $selected;
+        &:hover {
+          background: $secondary;
+          color: white;
+        }
+      }
+    }
+
+    .edit {
+      // border: 1px solid $dark-lowlight;
+      // border-radius: .25rem;
+      background: $med-lowlight;
+      border-radius: .25rem;
+      display: inline-block;
+      font-size: $ms-down2;
+      margin-right: .5em;
+    }
+
+    .far.fa-pencil {
+      display: inline-block;
+      padding: .5rem;
+    }
+  }
+}
+
+.posted-on {
+  // background: $faint-lowlight;
+  border: 1px solid $dark-lowlight;
+  border-radius: .25rem;
+  display: inline-block;
+  font-size: $ms-down2;
+  letter-spacing: 1px;
+  padding: 0 .5rem;
+  text-transform: uppercase;
+}
+
+.company-overview {
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+
+  hr {
+    border: 0;
+    border-bottom: .125rem solid $dark-lowlight;
+    margin: 1rem 1rem 0;
+  }
+}
+
+
+.top-pane {
+  background: $bg3;
+  // border-bottom: $pane-border;
+  border-bottom: .125rem solid $primary-l1;
+  // border-color: $charcoal;
+  padding: 1rem;
+  z-index: 1;
+
+  h4,
+  h5 {
+    display: inline-block;
+  }
+
+  form.action {
+    display: inline-block;
+  }
+}
+
+.actions {
+  margin-top: .5rem;
+  width: 100%;
+}
+
+.action {
+  display: inline-block;
+  margin: 0 .25rem 0 0;
+
+  &.switch {
+    width: 5rem;
+
+    &:hover {
+      // background: $faint-lowlight;
+    }
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.archive-button {
+    float: right;
+    margin-right: .25rem;
+  }
+
+  &.delete {
+    float: right;
+    white-space: nowrap;
+
+    button {
+      background: $secondary;
+    }
+  }
+}
+
+.col2 {
+  .admin-main {
+    .item-list, .preview-company {
+      border: 3px solid $med-lowlight;
+      border-radius: .5rem;
+      margin: 1rem;
+      max-width: 60rem;
+      overflow-y: auto;
+    }
+    .preview-company {
+      max-width: 45rem;
+    }
+
+    .preview-company-container {
+      overflow-y: auto;
+    }
+
+    > .content {
+      overflow-y: auto;
+      padding: 1rem;
+
+      .form-container {
+        max-width: 45rem;
+      }
+    }
+  }
+
+  .detail > .content {
+    max-width: 45rem;
+    &.full {
+      max-width: 100%;
+    }
+  }
+}
+
+.container > .detail > .content {
+  padding: 1rem;
+}
+
+.new-listing-form {
+  .field {
+    margin-bottom: 0;
+  }
+
+  [type=submit] {
+    background: $dark-lowlight;
+    margin-top: .25rem;
+  }
+}
+
+// form
+
+.compensation {
+  input {
+    width: 8em;
+  }
+}
+
+.sub-input {
+  display: inline-block;
+  margin: 0 .5rem 0 0;
+}
+
+.sub-label {
+  color: #999;
+  display: block;
+  font-size: $ms-down1;
+}
+
+.job-type {
+  max-width: 8rem;
+}
+
+.field.elevator-pitch textarea {
+  height: 6rem;
+}
+
+// company listing
+.admin-company-list {
+  // max-width: 40rem;
+}
+
+.new-company {
+  margin-bottom: 1rem;
+}
+
+.company-name {
+  display: inline-block;
+  font-size: $ms-up1;
+  font-weight: bold;
+}
+
+.company-row {
+  margin-top: 1rem;
+}
+
+.company-listing-count {
+  font-style: italic;
+}
+
+// all listings dashboard
+.listing-row {
+  margin-top: 1rem;
+
+  .job-title {
+    font-size: $ms-up1;
+    font-weight: bold;
+  }
+
+  .posted-on {
+    border: 0;
+    color: #999;
+  }
+}
+
+.top-pane .tag {
+  margin-left: .5rem;
+}
+
+.dashboard {
+  display: grid;
+  grid-column-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
+
+  h3 {
+    margin-bottom: .5rem;
+  }
+}
+
+button.stripe-portal {
+  background: $green;
+  font-size: $ms-up1;
+  font-weight: 600;
+  padding: .25rem 1rem;
+}
+
+
+.deactivate {
+  p {
+    max-width: 30rem;
+  }
+
+  form {
+    margin-top: 1rem;
+  }
+}
+
+.deactivate button {
+  background: $orange-2;
+  color: white;
+  font-size: $ms-up1;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-right: 1rem;
+
+  &.reactivate {
+    background: $green;
+    color: $charcoal;
+  }
+}
+
+button.delete {
+  background: $orange;
+}
+
+
+.dashboard {
+  .company-row {
+    padding: 1rem 0;
+
+    &:first-of-type {
+      padding-top: 0;
+    }
+  }
+}
+
+
+.logo-preview {
+  .logo-placeholder {
+    background: $dark-lowlight;
+    border-radius: 0;
+
+    &.square {
+      height: 64px;
+      width: 64px;
+    }
+
+    &.wide {
+      height: 64px;
+      width: 240px;
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.logo-fields {
+  margin-bottom: 1rem;
+
+  .field {
+    margin-bottom: 0;
+  }
+
+  .group-tip {
+    margin: 1rem 0;
+  }
+
+  .logo-group {
+    background: white;
+    border: .25rem solid $faint-lowlight;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.locations-input {
+  .remote-policy {
+    cursor: pointer;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  .active {
+    color: $primary;
+    font-weight: 600;
+  }
+
+  .location-input {
+    background: white;
+    border: 1px solid $dark-lowlight;
+    border-radius: .25rem;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-bottom: 1rem;
+
+    .location-meta {
+      border-top: 1px solid $dark-lowlight;
+      display: grid;
+      grid-column-end: span 2;
+      grid-column-start: 1;
+      grid-template-columns: 1fr 8rem;
+
+    }
+
+    .tip {
+      display: inline-block;
+      padding-right: .5rem;
+    }
+
+    .delete {
+      text-align: right;
+    }
+
+
+    > div {
+      padding: .75rem 1rem;
+    }
+  }
+
+  .remote-policies {
+    background: $faint-lowlight;
+  }
+}
+
+.skills textarea {
+  height: 4.5rem;
+}
+
+.subscription-level.badge {
+  background: $primary;
+  display: inline-block;
+  font-weight: 600;
+  margin: 0 0 1rem 1rem;
+
+  a {
+    color: white;
+    display: inline-block;
+    padding: .25rem .5rem;
+  }
+}
+
+
+.generate {
+  background: white;
+  border: .25rem solid $dark-lowlight;
+  border-radius: .25rem;
+  padding: 1rem;
+
+  .url-field {
+    margin-bottom: .5rem;
+
+    input {
+      background: $med-lowlight;
+      font-size: $ms-up1;
+      margin-right: .5rem;
+      width: 95%;
+    }
+
+    .fa:hover {
+      color: $orange;
+      cursor: pointer;
+    }
+  }
+
+  button {
+    font-size: $ms-up1;
+    font-weight: bold;
+    padding-left: .75rem;
+    padding-right: .75rem;
+  }
+}
