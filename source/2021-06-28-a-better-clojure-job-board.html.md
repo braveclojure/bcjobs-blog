@@ -1,6 +1,6 @@
 ---
 title: A Better Clojure Job Board
-date: 2021-06-28
+date: 2021-07-10
 ---
 
 I've rebuilt [Brave Clojure Jobs](https://jobs.braveclojure.com/) to **make it
@@ -43,12 +43,13 @@ Clojure Jobs more valuable to developers, growing the site's audience, which in
 turn makes it more valuable to companies. It's a virtuous cycle. (Side note: I'm
 really patting myself on the back for using the term "virtuous cycle.")
 
-I also want to definitely show that **companies are hiring Clojure developers**,
-now more than ever. In this way, I hope the site benefits the Clojure community
-as a whole. I still see people occasionally ask, "Can I get paid to write
-Clojure?" It's a concern for anyone considering learning the language; it's a
-large time investment and people naturally want it to pay off. I want to show
-that **the payoff is real**.
+I also want to definitively show that **companies are hiring Clojure
+developers**, now more than ever. In this way, I hope the site benefits the
+Clojure community as a whole by correcting the perception that not many places
+hire Clojure devs. I still see people ask, "Can I get paid to write Clojure?"
+It's a concern for anyone considering learning the language; it's a large time
+investment and people naturally want it to pay off. I want to show that **the
+payoff is real**.
 
 Indeed, I've seen a considerable uptick in Clojure job postings in 2021. More
 and more companies want to hire people to write Clojure because they know doing
@@ -65,8 +66,8 @@ There are many more changes -- the UI is leagues better, there's better
 integration with Stripe so you can manage payments without having to contact me,
 etc. etc. etc. The main point is that I want the site help us all as much as a
 job board possibly can. My hope is that this massive upgrade, which I've worked
-on for more than a year, will be good for companies, good for devlopers, and
-good for the entire Clojure community.
+on for over a year, will be good for companies, good for devlopers, and good for
+the entire Clojure community.
 
 ### Subscription benefits
 
