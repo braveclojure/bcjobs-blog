@@ -6,7 +6,10 @@ date: 2021-07-10
 I've rebuilt [Brave Clojure Jobs](https://jobs.braveclojure.com/) to **make it
 effortless to advertise Clojure jobs.** If you're hiring, I want you to be able
 to get a job listing in front of interested devs in less time than it takes you
-to sing Queen's _We Are the Champions_.
+to sing Queen's _We Are the Champions_. Watch how quick and easy it is to sign
+up and post a listing:
+
+<iframe width="750" height="422" src="https://www.youtube.com/embed/xLhBCCnLegM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: block; margin: 0 auto"></iframe>
 
 Here's what's new:
 
