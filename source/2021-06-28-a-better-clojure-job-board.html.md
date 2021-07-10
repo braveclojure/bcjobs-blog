@@ -3,11 +3,10 @@ title: A Better Clojure Job Board
 date: 2021-06-28
 ---
 
-I've rebuilt [Brave Clojure Jobs](https://jobs.braveclojure.com/) to make it
-nearly effortless for companies that use Clojure to let developers know they're
-hiring. If you're hiring, I want you to be able to get a job listing in front of
-interested devs in less time than it takes to sing Queen's _We Are the
-Champions_.
+I've rebuilt [Brave Clojure Jobs](https://jobs.braveclojure.com/) to **make it
+effortless to advertise Clojure jobs.** If you're hiring, I want you to be able
+to get a job listing in front of interested devs in less time than it takes you
+to sing Queen's _We Are the Champions_.
 
 Here's what's new:
 
@@ -17,53 +16,50 @@ Here's what's new:
   as _useful_ as possible. The most useful job board would include every
   available opening, so I've tried to remove barriers to that goal. At the same
   time, I do want to make money with this endeavor; I'll describe the paid
-  benefits farther down.
+  benefits below.
 * **You can import listings.** If you manage listings with Greenhouse, Workable,
-  and similar services you can (probably) just paste a listing's URL to import
-  it. Eventually, I want to update the site to automatically sync a company's
-  listings on Brave Clojure Jobs with their primary source of job listings.
-  Listing import isn't perfect but it should save time.
+  and similar services you can just paste a listing's URL to import it.
 * **You can duplicate listings.** You can now create new listings from existing
   listings. The theme here is: make it super easy to create listings!
 * **Copy/paste preserves formatting.** If you copy a listing you've created
   elsewhere and paste it in Brave Clojure Jobs, it will preserve the formatting,
   automatically converting it to markdown. I hope you'll find that this kind of
   attention to detail makes using Brave Clojure Jobs a great experience :D
-* **Companies are first-class.** With the old version you could not manage your
-  company's info separately from individual listings. Now you create a company
-  profile, reducing repetition in your listings and creating a kind of company
-  home page where devs can learn about you and see all your listings in one
-  place.
-* **I've filled out your company info for you.** I have been creating profiles
-  for dozens of companies looking for Clojure developers. Be on the lookout for
-  a link from me which will allow you to easily create a Brave Clojure Jobs user
-  account associated with your company. I really want to make it easy for you to
-  connect with a large audience of Clojure developers.
+* **Companies are first-class.** You can now create a company profile. Your
+  profile page will include links to all your listings, and it will appear in
+  the site's company directory.
+* **I've filled out your company profile for you.** I have been creating
+  profiles for dozens of companies looking for Clojure developers. Be on the
+  lookout for a link from me which will allow you to easily create a Brave
+  Clojure Jobs user account associated with your company. The video shows how
+  this works. I really want to make it easy for you to connect with a large
+  audience of Clojure developers.
 
 If you go through the process of "sign up with pre-filled company profile then
 import listing" you could have a listing published in a minute or less.
 
-Removing barriers to posting listings results in more listings. This makes Brave
+**Removing barriers to posting listings results in more listings.** This makes Brave
 Clojure Jobs more valuable to developers, growing the site's audience, which in
 turn makes it more valuable to companies. It's a virtuous cycle. (Side note: I'm
 really patting myself on the back for using the term "virtuous cycle.")
 
-Beyond companies and job seekers, however, I'm hoping these changes are helpful
-for the Clojure community as a whole by providing a definitive answer to the
-question, "Can I get hired to write Clojure?" I think this is a concern for
-anyone considering learning the language; it's a large time investment and
-people naturally want it to pay off. I want to show that the payoff is real.
+I also want to definitely show that **companies are hiring Clojure developers**,
+now more than ever. In this way, I hope the site benefits the Clojure community
+as a whole. I still see people occasionally ask, "Can I get paid to write
+Clojure?" It's a concern for anyone considering learning the language; it's a
+large time investment and people naturally want it to pay off. I want to show
+that **the payoff is real**.
 
 Indeed, I've seen a considerable uptick in Clojure job postings in 2021. More
 and more companies want to hire people to write Clojure because they know doing
 so brings tangible benefits. This site will be the beautifully-designed proof.
 
-So, a secondary goal of this rewrite is to create a kind of marketing tool for
-the Clojure community: I want something we can point to to show that if you
-learn the language you won't just become a better programmer, you'll also gain
-access to expanded career opportunities. This will help grow the community,
-which in turn will help ~~us take over the programming world~~ make the language
-an even more viable choice for everybody.
+So, a secondary goal of this rewrite is to create a marketing tool for the
+Clojure community: I want something we can point to to show that if you learn
+the language you won't just become a better programmer, you'll also gain access
+to expanded career opportunities. This will help grow the community, which in
+turn will help ~~us take over the programming world~~ make the language an even
+more viable choice for everybody.
 
 There are many more changes -- the UI is leagues better, there's better
 integration with Stripe so you can manage payments without having to contact me,
@@ -72,23 +68,19 @@ job board possibly can. My hope is that this massive upgrade, which I've worked
 on for more than a year, will be good for companies, good for devlopers, and
 good for the entire Clojure community.
 
-## Subscription benefits
+### Subscription benefits
 
 There are three subscription levels available to companies: $75/month,
 $150/month, and $250/month. Paying for a subscription gives you greater
 exposure: paying companies are listed on the home page as "supporters", and
-their listings get better positioning. Listings are sorted by grouping them into
-seven-day buckets, then sorting by subscription level, then by posting date,
-with the highest subscription levels appearing first, and with subscribers'
-listings highlighted. Subscribing companies will also have their jobs tweeted
-and sent to the Brave Clojure Jobs mailing list.
+their listings are highlighted and placed higher. Subscribing companies will
+also have their jobs tweeted and sent to the Brave Clojure Jobs mailing list.
 
-Over time I want to add more ways to give subscribers greater exposure. For
-example, on the [public product
+Over time I want to continue increasing supporters' reach by placing listings in
+more channels. For example, on the [public product
 roadmap](https://trello.com/b/KLvxGv7u/product-roadmap), one of the first items
-is "post bi-weekly job roundup to reddit." I need to coordinate with the
-moderators first to see if this would be OK; it's just one idea for how I want to
-provide value for subscribers.
+is "post bi-weekly job roundup to reddit.", and it's just one idea for how I
+want to provide value for subscribers.
 
 Another idea is to include badges or some kind of flair for subscribing
 companies to help your company stand out. For example, I want to create a
@@ -105,6 +97,8 @@ they strike your fancy.
 
 The takeaway here is that there are currently some subscription benefits focused
 on increasing your listings' reach, and there are some in the works.
+
+### Supporting Brave Clojure Jobs
 
 At the same time, I have to be honest that I'm uncertain about the ROI for
 subscribing. I believe that the subscription benefits will provide real value,
@@ -126,3 +120,5 @@ would be huge for me, and it would make it viable for me to continue investing a
 significant portion of my free time in the site on an ongoing basis. If you
 believe that this is a worthwhile endeavor and that it will help everybody in
 the long run, including you, then I hope you'll subscribe.
+
+-- Daniel Higginbotham
