@@ -59,18 +59,18 @@ and more companies want to hire people to write Clojure because they know doing
 so brings tangible benefits. This site will be the beautifully-designed proof.
 
 So, a secondary goal of this rewrite is to create a marketing tool for the
-Clojure community: I want something we can point to to show that if you learn
-the language you won't just become a better programmer, you'll also gain access
-to expanded career opportunities. This will help grow the community, which in
-turn will help ~~us take over the programming world~~ make the language an even
-more viable choice for everybody.
+community: I want something we can point to to show that **if you learn Clojure
+won't just become a better programmer, you'll also gain access to expanded
+career opportunities**. This will help grow the community, which in turn will
+help us <span style="text-decoration: line-through">take over the programming
+world</span> make the language an even more viable choice for everybody.
 
 There are many more changes -- the UI is leagues better, there's better
 integration with Stripe so you can manage payments without having to contact me,
 etc. etc. etc. The main point is that I want the site help us all as much as a
 job board possibly can. My hope is that this massive upgrade, which I've worked
-on for over a year, will be good for companies, good for devlopers, and good for
-the entire Clojure community.
+on for over a year, will be good for companies, good for developers, and good
+for the entire Clojure community.
 
 ### Subscription benefits
 

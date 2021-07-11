@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2021/07/10/a-better-clojure-job-board.html"/>
     <id>http://blog.url.com/2021/07/10/a-better-clojure-job-board.html</id>
     <published>2021-07-09T20:00:00-04:00</published>
-    <updated>2021-07-10T12:40:51-04:00</updated>
+    <updated>2021-07-11T10:57:11-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -24,7 +24,7 @@ to get a job listing in front of interested devs in less time than it takes you
 to sing Queen's &lt;em&gt;We Are the Champions&lt;/em&gt;. Watch how quick and easy it is to sign
 up and post a listing:&lt;/p&gt;
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/xLhBCCnLegM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""&gt;&lt;/iframe&gt;
+&lt;iframe width="750" height="422" src="https://www.youtube.com/embed/xLhBCCnLegM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="display: block; margin: 0 auto"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Here's what's new:&lt;/p&gt;
 
@@ -76,18 +76,18 @@ and more companies want to hire people to write Clojure because they know doing
 so brings tangible benefits. This site will be the beautifully-designed proof.&lt;/p&gt;
 
 &lt;p&gt;So, a secondary goal of this rewrite is to create a marketing tool for the
-Clojure community: I want something we can point to to show that if you learn
-the language you won't just become a better programmer, you'll also gain access
-to expanded career opportunities. This will help grow the community, which in
-turn will help ~~us take over the programming world~~ make the language an even
-more viable choice for everybody.&lt;/p&gt;
+community: I want something we can point to to show that &lt;strong&gt;if you learn Clojure
+won't just become a better programmer, you'll also gain access to expanded
+career opportunities&lt;/strong&gt;. This will help grow the community, which in turn will
+help us &lt;span style="text-decoration: line-through"&gt;take over the programming
+world&lt;/span&gt; make the language an even more viable choice for everybody.&lt;/p&gt;
 
 &lt;p&gt;There are many more changes – the UI is leagues better, there's better
 integration with Stripe so you can manage payments without having to contact me,
 etc. etc. etc. The main point is that I want the site help us all as much as a
 job board possibly can. My hope is that this massive upgrade, which I've worked
-on for over a year, will be good for companies, good for devlopers, and good for
-the entire Clojure community.&lt;/p&gt;
+on for over a year, will be good for companies, good for developers, and good
+for the entire Clojure community.&lt;/p&gt;
 
 &lt;h3 id="subscription-benefits"&gt;Subscription benefits&lt;/h3&gt;
 
