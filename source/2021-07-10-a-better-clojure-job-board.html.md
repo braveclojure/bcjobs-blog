@@ -6,8 +6,8 @@ date: 2021-07-10
 I've rebuilt [Brave Clojure Jobs](https://jobs.braveclojure.com/) to **make it
 effortless to advertise Clojure jobs.** If you're hiring, I want you to be able
 to get a job listing in front of interested devs in less time than it takes you
-to sing Queen's _We Are the Champions_. Watch how quick and easy it is to sign
-up and post a listing:
+to sing Queen's _We Are the Champions_. Watch how easy it is to sign up and post
+a listing:
 
 <iframe width="750" height="422" src="https://www.youtube.com/embed/xLhBCCnLegM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: block; margin: 0 auto"></iframe>
 
@@ -114,9 +114,11 @@ with others from a spirit of generosity just feels better to me. I wanted to
 invest the effort to make improvements and switch to a freemium model because I
 believe it will help everybody.
 
-I may end up making less than before, who knows, but I wanted to try to
-contribute more to a community that has been so good to me. I think I've
-accomplished that. I also want to keep improving the site, and paid
+Amazingly, the job board is seeing more activity this year than ever before --
+almost twice as much as previous years! So switching to freemium feels a little
+risky: I may end up making less than before. You never know, right? But I want
+to try to contribute more to a community that has been so good to me. I think
+I've accomplished that. I also want to keep improving the site, and paid
 subscriptions help me do that.
 
 My goal is to reach $2,000 a month in subscriptions. That level of support would
@@ -127,17 +129,18 @@ the long run, including you, then I hope you'll subscribe.
 
 ### A Personal Note
 
-Part of how I approach my work is that I want to create opportunity for others.
-One reason for this is that my family was poor (on welfare, living in government
-housing) when I was growing up, and I know what a tremendous difference it makes
-to reach financial stability. That's part of why I wrote my book and make it
-available for free, and it's a big part of why I've rebuilt this site. I want in
-some small way to help others have that stability.
+I care about creating opportunity for others. One reason for this is that my
+family was poor (on welfare, living in government housing) when I was growing
+up, and I know what a tremendous difference it makes to reach financial
+stability. That's part of why I wrote my book and make it available for free,
+and it's a big part of why I've rebuilt this site. Programming has allowed a
+lifestyle I literally couldn't imagine when I was young. I hope in some small
+way to help others have that stability.
 
 I also deeply believe that work should be as enjoyable as possible. Part of what
 makes work enjoyable is using expertly crafted tools, and that's why I continue
 to appreciate Clojure. Nearly a decade in I still love it, and I feel extremely
 lucky that I get paid to build stuff with it. I hope this site makes it possible
-for me people to do the same.
+for more people to do the same.
 
 -- Daniel Higginbotham
