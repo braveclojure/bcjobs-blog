@@ -121,8 +121,23 @@ subscriptions help me do that.
 
 My goal is to reach $2,000 a month in subscriptions. That level of support would
 would be huge for me, and it would make it viable for me to continue investing a
-significant portion of my free time in the site on an ongoing basis. If you
+significant portion of my time in the site, something I'm excited to do. If you
 believe that this is a worthwhile endeavor and that it will help everybody in
 the long run, including you, then I hope you'll subscribe.
+
+### A Personal Note
+
+Part of how I approach my work is that I want to create opportunity for others.
+One reason for this is that my family was poor (on welfare, living in government
+housing) when I was growing up, and I know what a tremendous difference it makes
+to reach financial stability. That's part of why I wrote my book and make it
+available for free, and it's a big part of why I've rebuilt this site. I want in
+some small way to help others have that stability.
+
+I also deeply believe that work should be as enjoyable as possible. Part of what
+makes work enjoyable is using expertly crafted tools, and that's why I continue
+to appreciate Clojure. Nearly a decade in I still love it, and I feel extremely
+lucky that I get paid to build stuff with it. I hope this site makes it possible
+for me people to do the same.
 
 -- Daniel Higginbotham
