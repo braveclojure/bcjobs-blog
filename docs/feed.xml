@@ -5,16 +5,16 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2021-07-09T20:00:00-04:00</updated>
+  <updated>2021-07-18T20:00:00-04:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
     <title>A Better Clojure Job Board</title>
-    <link rel="alternate" href="http://blog.url.com/2021/07/10/a-better-clojure-job-board.html"/>
-    <id>http://blog.url.com/2021/07/10/a-better-clojure-job-board.html</id>
-    <published>2021-07-09T20:00:00-04:00</published>
-    <updated>2021-07-11T17:23:40-04:00</updated>
+    <link rel="alternate" href="http://blog.url.com/2021/07/19/a-better-clojure-job-board.html"/>
+    <id>http://blog.url.com/2021/07/19/a-better-clojure-job-board.html</id>
+    <published>2021-07-18T20:00:00-04:00</published>
+    <updated>2021-07-19T20:29:16-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -151,8 +151,8 @@ family was poor (on welfare, living in government housing) when I was growing
 up, and I know what a tremendous difference it makes to reach financial
 stability. That's part of why I wrote my book and make it available for free,
 and it's a big part of why I've rebuilt this site. Programming has allowed a
-lifestyle I literally couldn't imagine when I was young. I hope in some small
-way to help others have that stability.&lt;/p&gt;
+life I literally couldn't imagine when I was young. I hope in some small way to
+help others have that stability.&lt;/p&gt;
 
 &lt;p&gt;I also deeply believe that work should be as enjoyable as possible. Part of what
 makes work enjoyable is using expertly crafted tools, and that's why I continue

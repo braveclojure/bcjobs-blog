@@ -1,6 +1,6 @@
 ---
 title: A Better Clojure Job Board
-date: 2021-07-10
+date: 2021-07-19
 ---
 
 I've rebuilt [Brave Clojure Jobs](https://jobs.braveclojure.com/) to **make it
@@ -134,8 +134,8 @@ family was poor (on welfare, living in government housing) when I was growing
 up, and I know what a tremendous difference it makes to reach financial
 stability. That's part of why I wrote my book and make it available for free,
 and it's a big part of why I've rebuilt this site. Programming has allowed a
-lifestyle I literally couldn't imagine when I was young. I hope in some small
-way to help others have that stability.
+life I literally couldn't imagine when I was young. I hope in some small way to
+help others have that stability.
 
 I also deeply believe that work should be as enjoyable as possible. Part of what
 makes work enjoyable is using expertly crafted tools, and that's why I continue
