@@ -5,16 +5,16 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2021-07-18T20:00:00-04:00</updated>
+  <updated>2021-07-31T20:00:00-04:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
     <title>A Better Clojure Job Board</title>
-    <link rel="alternate" href="http://blog.url.com/2021/07/19/a-better-clojure-job-board.html"/>
-    <id>http://blog.url.com/2021/07/19/a-better-clojure-job-board.html</id>
-    <published>2021-07-18T20:00:00-04:00</published>
-    <updated>2021-07-19T20:29:16-04:00</updated>
+    <link rel="alternate" href="http://blog.url.com/2021/08/01/a-better-clojure-job-board.html"/>
+    <id>http://blog.url.com/2021/08/01/a-better-clojure-job-board.html</id>
+    <published>2021-07-31T20:00:00-04:00</published>
+    <updated>2021-08-01T17:27:18-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -138,11 +138,12 @@ to try to contribute more to a community that has been so good to me. I think
 I've accomplished that. I also want to keep improving the site, and paid
 subscriptions help me do that.&lt;/p&gt;
 
-&lt;p&gt;My goal is to reach $2,000 a month in subscriptions. That level of support would
-would be huge for me, and it would make it viable for me to continue investing a
-significant portion of my time in the site, something I'm excited to do. If you
-believe that this is a worthwhile endeavor and that it will help everybody in
-the long run, including you, then I hope you'll subscribe.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;My goal is to reach $2,000 a month in subscriptions&lt;/strong&gt;. That level of support
+would would be huge for me, and it would make it viable for me to continue
+investing a significant portion of my time in the site, something I'm excited to
+do. If you believe that this is a worthwhile endeavor and that it will help
+everybody in the long run, including you and your company, then I hope you'll
+subscribe.&lt;/p&gt;
 
 &lt;h3 id="a-personal-note"&gt;A Personal Note&lt;/h3&gt;
 
