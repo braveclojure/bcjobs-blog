@@ -112,9 +112,10 @@ much better you'll do if your company becomes a sponsor.
 Ultimately, I wanted to rebuild the site because I value generosity. Engaging
 with others from a spirit of generosity just feels better to me. I wanted to
 invest the effort to make improvements and switch to a freemium model because I
-believe it will help everybody.
+believe it will help everybody. If you create a free account: thank you, I'm
+glad you're here :)
 
-Still, wwitching to freemium feels a little risky: I may end up making less than
+Still, switching to freemium feels a little risky: I may end up making less than
 before. You never know, right? But I want to try to contribute more to a
 community that has been so good to me. I think I've accomplished that. I also
 want to keep improving the site, and paid sponsorships help me do that.
