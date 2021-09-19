@@ -1,6 +1,6 @@
 ---
 title: A Better Clojure Job Board
-date: 2021-08-01
+date: 2021-09-20
 ---
 
 I've rebuilt [Brave Clojure Jobs](https://jobs.braveclojure.com/) to **make it
@@ -72,13 +72,13 @@ job board possibly can. My hope is that this massive upgrade, which I've worked
 on for over a year, will be good for companies, good for developers, and good
 for the entire Clojure community.
 
-### Subscription benefits
+## Sponsorship benefits
 
-There are three subscription levels available to companies: $75/month,
-$150/month, and $250/month. Paying for a subscription gives you greater
-exposure: paying companies are listed on the home page as "supporters", and
-their listings are highlighted and placed higher. Subscribing companies will
-also have their jobs tweeted and sent to the Brave Clojure Jobs mailing list.
+There are three sponsorship levels available to companies: $75/month,
+$150/month, and $250/month. Paying for a sponsorship gives you greater exposure:
+paying companies are listed on the home page as "sponsors", and their listings
+are highlighted and placed higher. Sponsor companies will also have their jobs
+tweeted and sent to the Brave Clojure Jobs mailing list.
 
 Over time I want to continue increasing supporters' reach by placing listings in
 more channels. For example, on the [public product
@@ -102,45 +102,56 @@ they strike your fancy.
 The takeaway here is that there are currently some subscription benefits focused
 on increasing your listings' reach, and there are some in the works.
 
-### Supporting Brave Clojure Jobs
+## Supporting Brave Clojure Jobs
 
 At the same time, I have to be honest that I'm uncertain about the ROI for
-subscribing. I believe that the subscription benefits will provide real value,
-but right now I don't have the data to create a precisely compelling sales pitch
-for just how much better you'll do if you subscribe.
+sponsoring. I believe that the benefits will provide real value, but right now I
+don't have the data to create a precisely compelling sales pitch for just how
+much better you'll do if your company becomes a sponsor.
 
 Ultimately, I wanted to rebuild the site because I value generosity. Engaging
 with others from a spirit of generosity just feels better to me. I wanted to
 invest the effort to make improvements and switch to a freemium model because I
 believe it will help everybody.
 
-Amazingly, the job board is seeing more activity this year than ever before --
-almost twice as much as previous years! So switching to freemium feels a little
-risky: I may end up making less than before. You never know, right? But I want
-to try to contribute more to a community that has been so good to me. I think
-I've accomplished that. I also want to keep improving the site, and paid
-subscriptions help me do that.
+Still, wwitching to freemium feels a little risky: I may end up making less than
+before. You never know, right? But I want to try to contribute more to a
+community that has been so good to me. I think I've accomplished that. I also
+want to keep improving the site, and paid sponsorships help me do that.
 
-**My goal is to reach $2,000 a month in subscriptions**. That level of support
+**My goal is to reach $2,000 a month in sponsorships**. That level of support
 would would be huge for me, and it would make it viable for me to continue
-investing a significant portion of my time in the site, something I'm excited to
-do. If you believe that this is a worthwhile endeavor and that it will help
-everybody in the long run, including you and your company, then I hope you'll
-subscribe.
+investing my time in the site, something I'm excited to do. If you believe that
+this is a worthwhile endeavor and that it will help everybody in the long run,
+including you and your company, then I hope your company will become a sponsor.
 
-### A Personal Note
+## Thank you early sponsors!
 
-I care about creating opportunity for others. One reason for this is that my
-family was poor (on welfare, living in government housing) when I was growing
-up, and I know what a tremendous difference it makes to reach financial
-stability. That's part of why I wrote my book and make it available for free,
-and it's a big part of why I've rebuilt this site. Programming has allowed a
-life I literally couldn't imagine when I was young. I hope in some small way to
-help others have that stability.
+In the seven weeks since I quietly re-launched the site on August 1st, five
+companies have already become sponsors! This is incredible to me, and I am very
+grateful to them:
 
-I also deeply believe that work should be as enjoyable as possible. Part of what
-makes work enjoyable is using expertly crafted tools, and that's why I continue
-to appreciate Clojure. Nearly a decade in I still love it, and I feel extremely
+* [Whimsical](https://whimsical.com/)
+* [Pitch](https://pitch.com/)
+* [Gower St](https://gower.st/)
+* [Vara](https://www.vara.ai/)
+* [Shortcut](https://shortcut.com/)
+
+## Job Seekers
+
+My aspiration for this site is that it will make it easier for you to find a
+Clojure job / gig / contract / bounty by gathering every opportunity in one
+place. The job board currently boasts more than double the number of listings
+the previous version ever displayed, and I only expect this to increase.
+
+What other changes would be useful to you? Please feel free to email me at
+[daniel@braveclojure.com](mailto:daniel@braveclojure.com) to share your ideas!
+
+## A Personal Note
+
+I believe that work should be as enjoyable as possible. Part of what makes work
+enjoyable is using expertly crafted tools, and that's why I continue to
+appreciate Clojure. Nearly a decade in I still love it, and I feel extremely
 lucky that I get paid to build stuff with it. I hope this site makes it possible
 for more people to do the same.
 
