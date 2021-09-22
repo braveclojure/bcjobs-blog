@@ -56,14 +56,15 @@ payoff is real**.
 
 Indeed, I've seen a considerable uptick in Clojure job postings in 2021. More
 and more companies want to hire people to write Clojure because they know doing
-so brings tangible benefits. This site will be the beautifully-designed proof.
+so brings tangible benefits. This site will be the well-designed proof.
 
 So, a secondary goal of this rewrite is to create a marketing tool for the
 community: I want something we can point to to show that **if you learn Clojure
 won't just become a better programmer, you'll also gain access to expanded
 career opportunities**. This will help grow the community, which in turn will
-help us <span style="text-decoration: line-through">take over the programming
-world</span> make the language an even more viable choice for everybody.
+help us continue <span style="text-decoration: line-through">taking over the
+programming world</span> making the language an even more viable choice for
+everybody.
 
 There are many more changes -- the UI is leagues better, there's better
 integration with Stripe so you can manage payments without having to contact me,
@@ -80,11 +81,11 @@ paying companies are listed on the home page as "sponsors", and their listings
 are highlighted and placed higher. Sponsor companies will also have their jobs
 tweeted and sent to the Brave Clojure Jobs mailing list.
 
-Over time I want to continue increasing supporters' reach by placing listings in
+Over time I want to continue increasing sponsors' reach by placing listings in
 more channels. For example, on the [public product
 roadmap](https://trello.com/b/KLvxGv7u/product-roadmap), one of the first items
 is "post bi-weekly job roundup to reddit.", and it's just one idea for how I
-want to provide value for subscribers.
+want to provide value.
 
 Another idea is to include badges or some kind of flair for subscribing
 companies to help your company stand out. For example, I want to create a
@@ -99,21 +100,21 @@ let me know! You can reach me by email,
 items on the [product roadmap](https://trello.com/b/KLvxGv7u/product-roadmap) if
 they strike your fancy.
 
-The takeaway here is that there are currently some subscription benefits focused
-on increasing your listings' reach, and there are some in the works.
+The takeaway here is that there are currently some sponsor benefits focused on
+increasing your listings' reach, and there are some in the works.
 
 ## Supporting Brave Clojure Jobs
 
 At the same time, I have to be honest that I'm uncertain about the ROI for
 sponsoring. I believe that the benefits will provide real value, but right now I
-don't have the data to create a precisely compelling sales pitch for just how
-much better you'll do if your company becomes a sponsor.
+don't have the data to create a precision sales pitch for just how much better
+you'll do if your company becomes a sponsor.
 
 Ultimately, I wanted to rebuild the site because I value generosity. Engaging
 with others from a spirit of generosity just feels better to me. I wanted to
 invest the effort to make improvements and switch to a freemium model because I
-believe it will help everybody. If you create a free account: thank you, I'm
-glad you're here :)
+believe it will help everybody. That is rewarding to me. And if you create a
+free account: thank you, I'm glad you're here :)
 
 Still, switching to freemium feels a little risky: I may end up making less than
 before. You never know, right? But I want to try to contribute more to a
@@ -128,7 +129,7 @@ including you and your company, then I hope your company will become a sponsor.
 
 ## Thank you early sponsors!
 
-In the seven weeks since I quietly re-launched the site on August 1st, five
+In the seven weeks since I quietly re-launched the site on August 1st, six
 companies have already become sponsors! This is incredible to me, and I am very
 grateful to them:
 
@@ -137,6 +138,7 @@ grateful to them:
 * [Gower St](https://gower.st/)
 * [Vara](https://www.vara.ai/)
 * [Shortcut](https://shortcut.com/)
+* [Lumanu](https://jobs.braveclojure.com/company/lumanu)
 
 ## Job Seekers
 
