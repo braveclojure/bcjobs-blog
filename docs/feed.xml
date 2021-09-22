@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/2021/09/20/a-better-clojure-job-board.html"/>
     <id>http://blog.url.com/2021/09/20/a-better-clojure-job-board.html</id>
     <published>2021-09-19T20:00:00-04:00</published>
-    <updated>2021-09-21T23:12:49-04:00</updated>
+    <updated>2021-09-22T07:58:46-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -63,13 +63,12 @@ Clojure Jobs more valuable to developers, growing the site's audience, which in
 turn makes it more valuable to companies. It's a virtuous cycle. (Side note: I'm
 really patting myself on the back for using the term "virtuous cycle.")&lt;/p&gt;
 
-&lt;p&gt;I also want to definitively show that &lt;strong&gt;companies are hiring Clojure
-developers&lt;/strong&gt;, now more than ever. In this way, I hope the site benefits the
-Clojure community as a whole by correcting the perception that not many places
-hire Clojure devs. I still see people ask, "Can I get paid to write Clojure?"
-It's a concern for anyone considering learning the language; it's a large time
-investment and people naturally want it to pay off. I want to show that &lt;strong&gt;the
-payoff is real&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I also want to help show that &lt;strong&gt;companies are hiring Clojure developers&lt;/strong&gt;, now
+more than ever. In this way, I hope the site benefits the Clojure community as a
+whole by correcting the perception that not many places hire Clojure devs. I
+still see people ask, "Can I get paid to write Clojure?" It's a valid concern
+for anyone considering learning the language; it's a large time investment and
+people naturally want it to pay off. I want to show that &lt;strong&gt;the payoff is real&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Indeed, I've seen a considerable uptick in Clojure job postings in 2021. More
 and more companies want to hire people to write Clojure because they know doing
@@ -80,15 +79,13 @@ community: I want something we can point to to show that &lt;strong&gt;if you le
 won't just become a better programmer, you'll also gain access to expanded
 career opportunities&lt;/strong&gt;. This will help grow the community, which in turn will
 help us continue &lt;span style="text-decoration: line-through"&gt;taking over the
-programming world&lt;/span&gt; making the language an even more viable choice for
-everybody.&lt;/p&gt;
+programming world&lt;/span&gt; making the language an even more viable choice.&lt;/p&gt;
 
 &lt;p&gt;There are many more changes – the UI is leagues better, there's better
 integration with Stripe so you can manage payments without having to contact me,
 etc. etc. etc. The main point is that I want the site help us all as much as a
-job board possibly can. My hope is that this massive upgrade, which I've worked
-on for over a year, will be good for companies, good for developers, and good
-for the entire Clojure community.&lt;/p&gt;
+job board possibly can. My hope is that this massive upgrade will be good for
+companies, good for developers, and good for the entire Clojure community.&lt;/p&gt;
 
 &lt;h2 id="sponsorship-benefits"&gt;Sponsorship benefits&lt;/h2&gt;
 
@@ -130,8 +127,7 @@ you'll do if your company becomes a sponsor.&lt;/p&gt;
 &lt;p&gt;Ultimately, I wanted to rebuild the site because I value generosity. Engaging
 with others from a spirit of generosity just feels better to me. I wanted to
 invest the effort to make improvements and switch to a freemium model because I
-believe it will help everybody. That is rewarding to me. And if you create a
-free account: thank you, I'm glad you're here :)&lt;/p&gt;
+believe it will help everybody. That is rewarding to me.&lt;/p&gt;
 
 &lt;p&gt;Still, switching to freemium feels a little risky: I may end up making less than
 before. You never know, right? But I want to try to contribute more to a
