@@ -1,3 +1,5 @@
+NOTE: this is a draft of a blog post for https://jobs-blog.braveclojure.com/. If you have suggestions for edits or would like your company included, please email me, [daniel@braveclojure.com](mailto:daniel@braveclojure.com).
+
 # Learning Clojure yields surprising long-term benefits. These companies are hiring and will train you.
 
 Learning any programming language requires a significant investment in time and resources. Of all the languages I&rsquo;ve gained proficiency in, Clojure has by far yielded the largest benefits for my life. Some of these benefits have been surprising and have only become evident with time. I want to share these less-obvious benefits because they&rsquo;ve had such a positive impact on me, and I want other devs to benefit, too.
