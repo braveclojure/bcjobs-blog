@@ -15,7 +15,7 @@ Now let&rsquo;s play this scenario out over time. Let&rsquo;s say that you gener
 
 What does this have to do with your lifestyle? I&rsquo;ll use this job board as an example. I recently re-built and re-launched this job board, and since then revenue has *quadrupled* (!!!). This has provided more income, which obviously helps on the financial end. But what&rsquo;s surprising and interesting is that Clojure&rsquo;s stability has allowed me to consistently make meaningful progress on my passion projects while *also* having time time for everything else I care about: making art, spending time with loved ones, and being involved in my local community. I don&rsquo;t have to work as much to get good results, because I&rsquo;m not fighting with the overhead costs imposed by the language.
 
-Building this business at a sustainable pace, without sacrificing other parts of my life, has been huge for me, and it&rsquo;s possible in large part because I get to focus on actually *building* and not on traversing the seven circles of dependency hell or figuring out what some new glyph like \`&#x2026;\` is supposed to mean.
+Building this business at a sustainable pace, without sacrificing other parts of my life, has been huge for me, and it&rsquo;s possible in large part because I get to focus on actually *building* and not on traversing the seven circles of dependency hell or figuring out what some new glyph like `...` is supposed to mean.
 
 The job board&rsquo;s core stack is one I&rsquo;ve been able to slowly grow over more than five years as I&rsquo;ve worked on various side projects. The fact that I can figure something out and it&rsquo;s still useful to me more than half a decade later is the definition of a good investment.
 
