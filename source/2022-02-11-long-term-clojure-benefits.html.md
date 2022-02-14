@@ -74,3 +74,4 @@ Are you ready to invest in Clojure? Then these companies are ready to invest in 
 -   Reify Health
 -   Metabase
 -   Logseq
+-   Helpshift
