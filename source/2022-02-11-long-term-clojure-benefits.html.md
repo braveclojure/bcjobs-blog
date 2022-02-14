@@ -68,6 +68,8 @@ Clojure was designed from the beginning to be [platform-agnostic](https://clojur
 
 Are you ready to invest in Clojure? Then these companies are ready to invest in you. These businesses are successfully leveraging all the power that Clojure provides, and they&rsquo;re hiring:
 
+(Note: the final draft will include blurbs for all companies and link to their profiles on https://jobs.braveclojure.com)
+
 -   JUXT
 -   Reify Health
 -   Metabase
