@@ -48,7 +48,7 @@ You might look at this list and object that plenty of other languages offer libr
 
 Clojure has three properties that make it a superior language for learning programming concepts:
 
-1.  Its REPL provides a tighter feedback looper than other languages, making it easier to perform mini experiments and learn from them. This is a form of self-testing, which studies show is one of the most effective tools for learning. You ask yourself a question, answer it, and compare it to the real answer, confirming (or not) your mental model of a system. The REPL allows you to do this almost at the speed of thought.
+1.  Its REPL provides a tighter feedback loop than other languages, making it easier to perform mini experiments and learn from them. This is a form of self-testing, which studies show is one of the most effective tools for learning. You ask yourself a question, answer it, and compare it to the real answer, confirming (or not) your mental model of a system. The REPL allows you to do this almost at the speed of thought.
 2.  Its focus on a small core set of data types and abstractions reduces the amount of non-essential learning you have to work through. In other languages, libraries introduce their own bespoke types with their own bespoke APIs, and the result is that you continually have to revisit the questions of &ldquo;How do I represent data?&rdquo; and &ldquo;How do I transform it?&rdquo;
     
     By contrast, 90% of the time the Clojure libraries you use represent compound data with vectors (which are like arrays), maps (like dictionaries), and sets. Even when they don&rsquo;t, the data types they introduce likely participate in [Clojure&rsquo;s core abstractions](https://www.braveclojure.com/core-functions-in-depth/), allowing you to use Clojure&rsquo;s core functions. You don&rsquo;t have to learn a new API for dealing with something like a LogicProgrammingSet or DiscreteEventMap.
@@ -59,7 +59,7 @@ Clojure has three properties that make it a superior language for learning progr
 
 ## Your experience is portable across environments
 
-Clojure was designed from the beginning to be [platform-agnostic](https://clojure.org/about/rationale#_languages_and_platforms), and the result is that is that it&rsquo;s made its way beyond the JVM to frontend programming via ClojureScript, and to shell scripting via [babashka](https://github.com/babashka/babashka). Being able to transfer your programming language experience from one environment to another like this means that you get to spend more time solving real problems. I expect this situation will only improve over time, especially thanks to the unstoppable force that is [Michiel Borkent, aka borkdude](https://github.com/sponsors/borkdude).
+Clojure was designed from the beginning to be [platform-agnostic](https://clojure.org/about/rationale#_languages_and_platforms), and the result is that it&rsquo;s made its way beyond the JVM to frontend programming via ClojureScript, and to shell scripting via [babashka](https://github.com/babashka/babashka). Being able to transfer your programming language experience from one environment to another like this means that you get to spend more time solving real problems. I expect this situation will only improve over time, especially thanks to the unstoppable force that is [Michiel Borkent, aka borkdude](https://github.com/sponsors/borkdude).
 
 
 <a id="org0982c5a"></a>
