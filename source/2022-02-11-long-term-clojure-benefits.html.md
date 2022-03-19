@@ -5,28 +5,28 @@ NOTE: this is a draft of a blog post for https://jobs-blog.braveclojure.com/. If
 Learning any programming language requires a significant investment in time and resources. Of all the languages I&rsquo;ve gained proficiency in, Clojure has by far yielded the largest benefits for my life. Some of these benefits have been surprising and have only become evident with time. I want to share these less-obvious benefits because they&rsquo;ve had such a positive impact on me, and I want other devs to benefit, too.
 
 
-## Clojure&rsquo;s stability can improve your lifestyle
+<a id="org4ab4f23"></a>
 
-Clojure&rsquo;s core team is committed to the language&rsquo;s stability over time so that code you wrote years ago will almost always work with the latest version of Clojure. Most other languages, by unfortunate contrast, don&rsquo;t have this dedication to stability. Instead, they&rsquo;re fairly laissez-faire about introducing breaking changes across versions, and they&rsquo;ll introduce new syntax with gusto.
+# Clojure&rsquo;s stability can improve your lifestyle
 
-This kind of churn in the core language imposes an overhead cost every time you sit down to do some programming. Say you want to spend some time hacking on a side project that uses the language `blub-1.0` but you want to use a library built for `blub-1.1`. You are in for a night of pain and horror. Your stomach is probably turning just thinking of it.
+Clojure&rsquo;s core team is committed to the language&rsquo;s stability over time so that code you wrote years ago will almost always work with the latest version of Clojure.
 
-Now let&rsquo;s play this scenario out over time. Let&rsquo;s say that you generally have 30 minutes a night, two nights a week, to work on a side project. You run into a &ldquo;language overhead&rdquo; issue like the one above. Solving this kind of problem is a little chaotic, meaning it&rsquo;s hard to pick up where you left off between programming sessions. If you don&rsquo;t solve it the first night, you&rsquo;ll be retreading a lot of the same ground the next night. Heaven help you if Life Happens and you can&rsquo;t pick up your project for a couple weeks. It&rsquo;s hard to make actual progress.
+By unfortunate contrast, some other languages introduce significant, breaking changes like a child declaring that they&rsquo;re DONE with magic and now want to be a BOTANIST thank you very much. This imposes a cost every time you sit down to do some work. Say you want to spend some time on a side project that uses the language `blub-1.0` but you want to use a library built for `blub-1.1`. You are in for a night of pain and horror. Your stomach is probably turning just thinking of it.
 
-What does this have to do with your lifestyle? I&rsquo;ll use this job board as an example. I recently re-built and re-launched this job board, and since then revenue has *quadrupled* (!!!). This has provided more income, which obviously helps on the financial end. But what&rsquo;s surprising and interesting is that Clojure&rsquo;s stability has allowed me to consistently make meaningful progress on my passion projects while *also* having time time for everything else I care about: making art, spending time with loved ones, and being involved in my local community. I don&rsquo;t have to work as much to get good results, because I&rsquo;m not fighting with the overhead costs imposed by the language.
+Let&rsquo;s play this scenario out over time. Say you only have 30 minutes to work on a side project. You run into a &ldquo;language overhead&rdquo; issue like the one above. Solving this kind of problem is chaotic, meaning it&rsquo;s hard to pick up where you left off between programming sessions. If you don&rsquo;t solve it the first time, you&rsquo;ll retread a lot of ground the next session. Heaven help you if Life Happens and you can&rsquo;t pick up your project for a couple weeks. It&rsquo;s hard to make actual progress.
 
-Building this business at a sustainable pace, without sacrificing other parts of my life, has been huge for me, and it&rsquo;s possible in large part because I get to focus on actually *building* and not on traversing the seven circles of dependency hell or figuring out what some new glyph like `...` is supposed to mean.
+What does this have to do with your lifestyle? I&rsquo;ll use this job board as an example. I recently re-built and re-launched this job board, and since then revenue has *quintupled* (!!!). This has provided more income, which obviously helps on the financial end. But what&rsquo;s interesting is that Clojure&rsquo;s stability has let me consistently make real progress on my passion projects while *also* having time time for everything else I care about: making art, spending time with loved ones, etc. I can work less for better results because I&rsquo;m not bogged down by the overhead costs imposed by the language.
 
-The job board&rsquo;s core stack is one I&rsquo;ve been able to slowly grow over more than five years as I&rsquo;ve worked on various side projects. The fact that I can figure something out and it&rsquo;s still useful to me more than half a decade later is the definition of a good investment.
+I get to build this business at a sustainable pace without sacrificing other parts of my live because Clojure lets me focus on actually *building* instead of traversing the seven cricles of dependency hell. I built some parts of the site eight years ago. The fact that I can figure something out and it&rsquo;s still useful to me more than half a decade later is the definition of a good investment.
 
-There&rsquo;s another, even less obvious way that Clojure&rsquo;s stability can improve your lifestyle: it reduces stress in your life. The quality of your life is the quality of your day-to-day experience, and if a significant portion of that involves meaningless struggle with your programming language, well it&rsquo;s hard to not end up feeling kinda lousy. And in this economy??
+There&rsquo;s another way that Clojure&rsquo;s stability improves your lifestyle: it reduces stress in your life. The quality of your life is the quality of your day-to-day experience, and if a significant portion of that involves meaningless struggle with your programming language, well it&rsquo;s hard to not end up feeling kinda lousy. And in this economy??
 
 I realize I&rsquo;m probably giving off strong &ldquo;wow this guy is straight up mainlining the kool-aid&rdquo; vibes here. Clojure, ultimately, is just a tool, right? Yes. And if we&rsquo;re going to talk about building a satisfying and rewarding life, we need to talk about tools, and Clojure is an exceedingly good one.
 
 
-<a id="org52ef52d"></a>
+<a id="orgbc48873"></a>
 
-## Clojure is a great portal to other programming domains
+# Clojure is a great portal to other programming domains
 
 Clojure has provided a gateway for me to learn more programming techniques and concepts, including:
 
@@ -54,23 +54,36 @@ Clojure has three properties that make it a superior language for learning progr
     By contrast, 90% of the time the Clojure libraries you use represent compound data with vectors (which are like arrays), maps (like dictionaries), and sets. Even when they don&rsquo;t, the data types they introduce likely participate in [Clojure&rsquo;s core abstractions](https://www.braveclojure.com/core-functions-in-depth/), allowing you to use Clojure&rsquo;s core functions. You don&rsquo;t have to learn a new API for dealing with something like a LogicProgrammingSet or DiscreteEventMap.
 3.  Its minimal syntax and lack of boilerplate. Less boilerplate means less ways to mess up, and less time writing boilerplate means more time experimenting and learning.
 
-
-<a id="org0139a62"></a>
-
-## Your experience is portable across environments
-
-Clojure was designed from the beginning to be [platform-agnostic](https://clojure.org/about/rationale#_languages_and_platforms), and the result is that is that it&rsquo;s made its way beyond the JVM to frontend programming via ClojureScript, and to shell scripting via [babashka](https://github.com/babashka/babashka). Being able to transfer your programming language experience from one environment to another like this means that you get to spend more time solving real problems. I expect this situation will only improve over time, especially thanks to the unstoppable force that is [Michiel Borkent, aka borkdude](https://github.com/sponsors/borkdude).
+More than other languages, Clojure lets you focus on what&rsquo;s essential about the domain or concept you&rsquo;re trying to learn.
 
 
-<a id="org0982c5a"></a>
+<a id="org67e3f15"></a>
 
-## These Companies are Hiring and Will Train You
+# Your experience is portable across environments
 
-Are you ready to invest in Clojure? Then these companies are ready to invest in you. These businesses are successfully leveraging all the power that Clojure provides, and they&rsquo;re hiring:
+Clojure was designed from the beginning to be [platform-agnostic](https://clojure.org/about/rationale#_languages_and_platforms), and the result is that is that it&rsquo;s made its way beyond the JVM to browser programming via ClojureScript, and to shell scripting via [babashka](https://github.com/babashka/babashka). Being able to transfer your programming language experience from one environment to another like this means that you get to spend more time solving real problems.
 
-(Note: the final draft will include blurbs for all companies and link to their profiles on https://jobs.braveclojure.com)
+It is hard to overstate how powerful this is. There are two complementary ways to think about this:
 
--   JUXT
--   Reify Health
--   Metabase
--   Logseq
+1.  You&rsquo;re not limiting yourself to building only certain kinds of applications
+2.  You&rsquo;re gaining immense leverage
+
+Generally, when you spend time gaining deep expertise in a programming language you&rsquo;re necessarily limiting yourself to only building certain kinds of applications. Most languages are intimately tied to the kind of environment they target; when you spend time learning Go, you&rsquo;re limiting yourself to server-side apps. When you learn Swift, you&rsquo;re limiting yourself to iOS applications. If you want to start building a different kind of application, you have to learn a new language, with its attendant build tools and architecture ecosystem and paradigm and quirks. On top of that, you have to learn about the environment itself: its resources, its interaction modes, etc.
+
+When you invest the time to learn Clojure, you gain leverage instead of limitations. Learning any language involves more than just the basics of syntax and build tools. It includes deeper topics like how to structure an aplication for maintenance and evolution. Taking the time to develop Clojure expertise will pay dividends when you switch from backend to frontend development.
+
+I expect this situation will only improve over time, especially thanks to the unstoppable force that is [Michiel Borkent, aka borkdude](https://github.com/sponsors/borkdude). I am very excited for what the future holds!
+
+
+<a id="orga54950b"></a>
+
+# These Clojure Companies Hire People Without Clojure Experience
+
+Are you ready to invest in Clojure? Then these companies are ready to invest in you. These businesses are successfully leveraging all the power that Clojure provides, and they hire people without Clojure experience:
+
+-   [JUXT](https://jobs.braveclojure.com/company/juxt-ltd), a consultancy using Clojure to build systems and keep complexity under control. They&rsquo;re hiring experienced Clojure practitioners as well as those that are keen to learn. JUXT also created XTDB and many well-known Clojure libraries.
+-   [Reify Health](https://jobs.braveclojure.com/company/reify-health), a unicorn startup helping pharma companies and research sites enroll patients in clinical trials faster than ever before. Clinical research remains a significant bottleneck on drug development. Much of this is due to the slow and unpredictable nature of patient enrolment. Many potential therapies get scrapped because they failed to enroll enough patients in their trials.  Reify Health is tackling this problem with a platform built on Clojure.
+-   [Metabase](https://jobs.braveclojure.com/company/metabase), the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users. Their codebase is open-source, and it&rsquo;s one of the largest open-source Clojure codebases on the planet!
+-   [Logseq](https://jobs.braveclojure.com/company/logseq), a startup that exists to increase the knowledge output of humanity. They&rsquo;re starting with building a personal knowledge assistant.
+-   [BroadPeak Partners](https://jobs.braveclojure.com/company/broadpeak-partners), a company that helps less technical users manage data streams and integrations without having to rely on developers. They&rsquo;re focused on enterprises with increasing amounts of data to manage, the need to move fast, and deliver sustainable solutions.
+-   [Riverford Organic Farmers](https://jobs.braveclojure.com/company/riverford-organic-farmers), an employee-owned company that delivers organic food to around 90,000 homes and businesses across the UK!
