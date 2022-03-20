@@ -5,7 +5,7 @@ NOTE: this is a draft of a blog post for https://jobs-blog.braveclojure.com/. If
 Learning any programming language requires a significant investment in time and resources. Of all the languages I&rsquo;ve gained proficiency in, Clojure has by far yielded the largest benefits for my life. Some of these benefits have been surprising and have only become evident with time. I want to share these less-obvious benefits because they&rsquo;ve had such a positive impact on me, and I want other devs to benefit, too.
 
 
-<a id="org4ab4f23"></a>
+<a id="org43688e2"></a>
 
 # Clojure&rsquo;s stability can improve your lifestyle
 
@@ -15,16 +15,16 @@ By unfortunate contrast, some other languages introduce significant, breaking ch
 
 Let&rsquo;s play this scenario out over time. Say you only have 30 minutes to work on a side project. You run into a &ldquo;language overhead&rdquo; issue like the one above. Solving this kind of problem is chaotic, meaning it&rsquo;s hard to pick up where you left off between programming sessions. If you don&rsquo;t solve it the first time, you&rsquo;ll retread a lot of ground the next session. Heaven help you if Life Happens and you can&rsquo;t pick up your project for a couple weeks. It&rsquo;s hard to make actual progress.
 
-What does this have to do with your lifestyle? I&rsquo;ll use this job board as an example. I recently re-built and re-launched this job board, and since then revenue has *quintupled* (!!!). This has provided more income, which obviously helps on the financial end. But what&rsquo;s interesting is that Clojure&rsquo;s stability has let me consistently make real progress on my passion projects while *also* having time time for everything else I care about: making art, spending time with loved ones, etc. I can work less for better results because I&rsquo;m not bogged down by the overhead costs imposed by the language.
+What does this have to do with your lifestyle? I&rsquo;ll use this job board as an example. I recently re-built and re-launched this job board, and since then revenue has *quintupled* (!!!). This has provided more income, which obviously helps on the financial end. But what&rsquo;s interesting is that Clojure&rsquo;s stability has let me consistently make real progress on my passion projects without neglecting other parts of my life: making art, spending time with loved ones, etc. I can work less for better results because I&rsquo;m not bogged down by the overhead costs imposed by the language.
 
-I get to build this business at a sustainable pace without sacrificing other parts of my live because Clojure lets me focus on actually *building* instead of traversing the seven cricles of dependency hell. I built some parts of the site eight years ago. The fact that I can figure something out and it&rsquo;s still useful to me more than half a decade later is the definition of a good investment.
+I get to build this business at a sustainable pace without sacrificing my personal life because Clojure lets me focus on actually *building* instead of traversing the seven circles of language hell. I built some parts of the site eight years ago. The fact that I can figure something out and it&rsquo;s still useful to me nearly a decade later is the definition of a good investment.
 
-There&rsquo;s another way that Clojure&rsquo;s stability improves your lifestyle: it reduces stress in your life. The quality of your life is the quality of your day-to-day experience, and if a significant portion of that involves meaningless struggle with your programming language, well it&rsquo;s hard to not end up feeling kinda lousy. And in this economy??
+There&rsquo;s another way that Clojure&rsquo;s stability improves your lifestyle: it reduces your stress. The quality of your life is the quality of your day-to-day experience, and if a significant portion of that involves meaningless struggle with your programming language, well it&rsquo;s hard to not end up feeling kinda lousy. And in this economy??
 
 I realize I&rsquo;m probably giving off strong &ldquo;wow this guy is straight up mainlining the kool-aid&rdquo; vibes here. Clojure, ultimately, is just a tool, right? Yes. And if we&rsquo;re going to talk about building a satisfying and rewarding life, we need to talk about tools, and Clojure is an exceedingly good one.
 
 
-<a id="orgbc48873"></a>
+<a id="org51e6b37"></a>
 
 # Clojure is a great portal to other programming domains
 
@@ -57,7 +57,7 @@ Clojure has three properties that make it a superior language for learning progr
 More than other languages, Clojure lets you focus on what&rsquo;s essential about the domain or concept you&rsquo;re trying to learn.
 
 
-<a id="org67e3f15"></a>
+<a id="org7d74d65"></a>
 
 # Your experience is portable across environments
 
@@ -75,7 +75,7 @@ When you invest the time to learn Clojure, you gain leverage instead of limitati
 I expect this situation will only improve over time, especially thanks to the unstoppable force that is [Michiel Borkent, aka borkdude](https://github.com/sponsors/borkdude). I am very excited for what the future holds!
 
 
-<a id="orga54950b"></a>
+<a id="orgf9cbe3d"></a>
 
 # These Clojure Companies Hire People Without Clojure Experience
 
