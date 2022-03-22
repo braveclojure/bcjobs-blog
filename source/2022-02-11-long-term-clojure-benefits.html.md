@@ -1,17 +1,17 @@
 NOTE: this is a draft of a blog post for https://jobs-blog.braveclojure.com/. If you have suggestions for edits or would like your company included, please email me, [daniel@braveclojure.com](mailto:daniel@braveclojure.com).
 
-# Learning Clojure yields surprising long-term benefits. These companies are hiring and will train you.
+# Learning Clojure yields surprising long-term benefits. These companies will train you.
 
 Learning any programming language requires a significant investment in time and resources. Of all the languages I&rsquo;ve gained proficiency in, Clojure has by far yielded the largest benefits for my life. Some of these benefits have been surprising and have only become evident with time. I want to share these less-obvious benefits because they&rsquo;ve had such a positive impact on me, and I want other devs to benefit, too.
 
 
-<a id="org43688e2"></a>
+<a id="org133c56b"></a>
 
 # Clojure&rsquo;s stability can improve your lifestyle
 
 Clojure&rsquo;s core team is committed to the language&rsquo;s stability over time so that code you wrote years ago will almost always work with the latest version of Clojure.
 
-By unfortunate contrast, some other languages introduce significant, breaking changes like a child declaring that they&rsquo;re DONE with magic and now want to be a BOTANIST thank you very much. This imposes a cost every time you sit down to do some work. Say you want to spend some time on a side project that uses the language `blub-1.0` but you want to use a library built for `blub-1.1`. You are in for a night of pain and horror. Your stomach is probably turning just thinking of it.
+By unfortunate contrast, some other languages introduce significant, breaking changes like a friend declaring that they&rsquo;re DONE with carbs and are going PALEO thank you very much. This imposes a cost every time you sit down to do some work. Say you want to spend some time on a side project that uses `blub v1.0` but you want to use a library built for `blub v1.1`. You are in for a night of pain and horror.
 
 Let&rsquo;s play this scenario out over time. Say you only have 30 minutes to work on a side project. You run into a &ldquo;language overhead&rdquo; issue like the one above. Solving this kind of problem is chaotic, meaning it&rsquo;s hard to pick up where you left off between programming sessions. If you don&rsquo;t solve it the first time, you&rsquo;ll retread a lot of ground the next session. Heaven help you if Life Happens and you can&rsquo;t pick up your project for a couple weeks. It&rsquo;s hard to make actual progress.
 
@@ -24,7 +24,7 @@ There&rsquo;s another way that Clojure&rsquo;s stability improves your lifestyle
 I realize I&rsquo;m probably giving off strong &ldquo;wow this guy is straight up mainlining the kool-aid&rdquo; vibes here. Clojure, ultimately, is just a tool, right? Yes. And if we&rsquo;re going to talk about building a satisfying and rewarding life, we need to talk about tools, and Clojure is an exceedingly good one.
 
 
-<a id="org51e6b37"></a>
+<a id="org4f91a40"></a>
 
 # Clojure is a great portal to other programming domains
 
@@ -57,7 +57,7 @@ Clojure has three properties that make it a superior language for learning progr
 More than other languages, Clojure lets you focus on what&rsquo;s essential about the domain or concept you&rsquo;re trying to learn.
 
 
-<a id="org7d74d65"></a>
+<a id="org57a8195"></a>
 
 # Your experience is portable across environments
 
@@ -75,15 +75,19 @@ When you invest the time to learn Clojure, you gain leverage instead of limitati
 I expect this situation will only improve over time, especially thanks to the unstoppable force that is [Michiel Borkent, aka borkdude](https://github.com/sponsors/borkdude). I am very excited for what the future holds!
 
 
-<a id="orgf9cbe3d"></a>
+<a id="orgd2bf7f7"></a>
 
 # These Clojure Companies Hire People Without Clojure Experience
 
-Are you ready to invest in Clojure? Then these companies are ready to invest in you. These businesses are successfully leveraging all the power that Clojure provides, and they hire people without Clojure experience:
+Are you ready to invest in Clojure? Then these companies are ready to invest in you. These businesses are successfully leveraging Clojure&rsquo;s power, and they hire people without Clojure experience:
 
--   [JUXT](https://jobs.braveclojure.com/company/juxt-ltd), a consultancy using Clojure to build systems and keep complexity under control. They&rsquo;re hiring experienced Clojure practitioners as well as those that are keen to learn. JUXT also created XTDB and many well-known Clojure libraries.
+-   [Nubank](https://jobs.braveclojure.com/company/nubank), the largest financial services company in Latin America and one of the biggest IPOs of 2021, is the world&rsquo;s biggest user of Clojure and Datomic, with over 1000 Clojure developers.
 -   [Reify Health](https://jobs.braveclojure.com/company/reify-health), a unicorn startup helping pharma companies and research sites enroll patients in clinical trials faster than ever before. Clinical research remains a significant bottleneck on drug development. Much of this is due to the slow and unpredictable nature of patient enrolment. Many potential therapies get scrapped because they failed to enroll enough patients in their trials.  Reify Health is tackling this problem with a platform built on Clojure.
+-   [Pitch](https://jobs.braveclojure.com/company/pitch), the modern presentation software we always wished we had. Built for teams that care about where their time and energy goes. They&rsquo;re around 80 Clojure engineers now, and are having a great time learning how to scale a Clojure codebase and team. They&rsquo;ve got a good track record of hiring non-Clojurists and making them fluent in parens.
 -   [Metabase](https://jobs.braveclojure.com/company/metabase), the easiest way for people to get insights from their data, from tiny startups who get up and running quickly to major corporations with tens of thousands of users. Their codebase is open-source, and it&rsquo;s one of the largest open-source Clojure codebases on the planet!
 -   [Logseq](https://jobs.braveclojure.com/company/logseq), a startup that exists to increase the knowledge output of humanity. They&rsquo;re starting with building a personal knowledge assistant.
+-   [JUXT](https://jobs.braveclojure.com/company/juxt-ltd), a consultancy using Clojure to build systems and keep complexity under control. They&rsquo;re hiring experienced Clojure practitioners as well as those that are keen to learn. JUXT also created XTDB and many well-known Clojure libraries.
 -   [BroadPeak Partners](https://jobs.braveclojure.com/company/broadpeak-partners), a company that helps less technical users manage data streams and integrations without having to rely on developers. They&rsquo;re focused on enterprises with increasing amounts of data to manage, the need to move fast, and deliver sustainable solutions.
 -   [Riverford Organic Farmers](https://jobs.braveclojure.com/company/riverford-organic-farmers), an employee-owned company that delivers organic food to around 90,000 homes and businesses across the UK!
+-   [Shortcut.com](https://jobs.braveclojure.com/company/clubhouse-io), an intuitive and enjoyable project management platform, has been using Clojure for its backend since day one.
+
