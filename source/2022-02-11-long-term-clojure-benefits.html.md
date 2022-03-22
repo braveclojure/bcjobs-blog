@@ -70,7 +70,7 @@ It is hard to overstate how powerful this is. There are two complementary ways t
 
 Generally, when you spend time gaining deep expertise in a programming language you&rsquo;re necessarily limiting yourself to only building certain kinds of applications. Most languages are intimately tied to the kind of environment they target; when you spend time learning Go, you&rsquo;re limiting yourself to server-side apps. When you learn Swift, you&rsquo;re limiting yourself to iOS applications. If you want to start building a different kind of application, you have to learn a new language, with its attendant build tools and architecture ecosystem and paradigm and quirks. On top of that, you have to learn about the environment itself: its resources, its interaction modes, etc.
 
-When you invest the time to learn Clojure, you gain leverage instead of limitations. Learning any language involves more than just the basics of syntax and build tools. It includes deeper topics like how to structure an aplication for maintenance and evolution. Taking the time to develop Clojure expertise will pay dividends when you switch from backend to frontend development.
+When you invest the time to learn Clojure, you gain leverage instead of limitations. Learning any language involves more than just the basics of syntax and build tools. It includes deeper topics like how to structure an application for maintenance and evolution. Taking the time to develop Clojure expertise will pay dividends when you switch from backend to frontend development.
 
 I expect this situation will only improve over time, especially thanks to the unstoppable force that is [Michiel Borkent, aka borkdude](https://github.com/sponsors/borkdude). I am very excited for what the future holds!
 
