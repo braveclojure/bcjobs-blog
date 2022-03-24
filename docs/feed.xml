@@ -7,7 +7,7 @@
   <link href="http://blog.url.com/feed.xml" rel="self"/>
   <updated>2022-02-10T19:00:00-05:00</updated>
   <author>
-    <name>Blog Author</name>
+    <name>Daniel Higginbotham</name>
   </author>
   <entry>
     <title></title>
@@ -16,7 +16,7 @@
     <published>2022-02-10T19:00:00-05:00</published>
     <updated>2022-03-24T13:00:07-04:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Daniel Higginbotham</name>
     </author>
     <content type="html">&lt;h1 id="learning-clojure-yields-surprising-long-term-benefits-these-companies-are-hiring-and-will-train-you"&gt;Learning Clojure yields surprising long-term benefits. These companies are hiring and will train you.&lt;/h1&gt;
 
@@ -128,7 +128,7 @@
     <published>2021-09-19T20:00:00-04:00</published>
     <updated>2021-09-22T07:58:46-04:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Daniel Higginbotham</name>
     </author>
     <content type="html">&lt;p&gt;I've rebuilt &lt;a href="https://jobs.braveclojure.com/"&gt;Brave Clojure Jobs&lt;/a&gt; to &lt;strong&gt;make it
 effortless to advertise Clojure jobs.&lt;/strong&gt; If you're hiring, I want you to be able
