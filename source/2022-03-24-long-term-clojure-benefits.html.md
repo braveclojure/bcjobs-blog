@@ -10,7 +10,7 @@ Learning any programming language requires a significant investment in time and 
 
 <a id="orgf579f24"></a>
 
-# Clojure&rsquo;s stability can improve your lifestyle
+## Clojure&rsquo;s stability can improve your lifestyle
 
 Clojure&rsquo;s core team is committed to the language&rsquo;s stability over time so that code you wrote years ago will almost always work with the latest version of Clojure.
 
@@ -29,7 +29,7 @@ I realize I&rsquo;m probably giving off strong &ldquo;wow this guy is straight u
 
 <a id="orgb658aba"></a>
 
-# Clojure is a great portal to other programming domains
+## Clojure is a great portal to other programming domains
 
 Clojure has provided a gateway for me to learn more programming techniques and concepts, including:
 
@@ -62,7 +62,7 @@ More than other languages, Clojure lets you focus on what&rsquo;s essential abou
 
 <a id="org6494f24"></a>
 
-# Your experience is portable across environments
+## Your experience is portable across environments
 
 Clojure was designed from the beginning to be [platform-agnostic](https://clojure.org/about/rationale#_languages_and_platforms), and the result is that is that it&rsquo;s made its way beyond the JVM to browser programming via ClojureScript, and to shell scripting via [babashka](https://github.com/babashka/babashka). Being able to transfer your programming language experience from one environment to another like this means that you get to spend more time solving real problems.
 
@@ -80,7 +80,7 @@ I expect this situation will only improve over time, especially thanks to the un
 
 <a id="org99365d9"></a>
 
-# These Clojure Companies Hire People Without Clojure Experience
+## These Clojure Companies Hire People Without Clojure Experience
 
 Are you ready to invest in Clojure? Then these companies are ready to invest in you. These businesses are successfully leveraging Clojure&rsquo;s power, and they hire people without Clojure experience:
 
