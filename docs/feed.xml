@@ -5,15 +5,15 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2022-02-10T19:00:00-05:00</updated>
+  <updated>2022-03-23T20:00:00-04:00</updated>
   <author>
     <name>Daniel Higginbotham</name>
   </author>
   <entry>
     <title></title>
-    <link rel="alternate" href="http://blog.url.com/2022/02/11/long-term-clojure-benefits.html"/>
-    <id>http://blog.url.com/2022/02/11/long-term-clojure-benefits.html</id>
-    <published>2022-02-10T19:00:00-05:00</published>
+    <link rel="alternate" href="http://blog.url.com/2022/03/24/long-term-clojure-benefits.html"/>
+    <id>http://blog.url.com/2022/03/24/long-term-clojure-benefits.html</id>
+    <published>2022-03-23T20:00:00-04:00</published>
     <updated>2022-03-24T13:00:07-04:00</updated>
     <author>
       <name>Daniel Higginbotham</name>
